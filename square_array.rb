@@ -9,3 +9,6 @@ end
 
 square_array([1, 2, 3, 4, 5])
 
+def squaring(integers)
+    integers.collect {|integer| integer**2} 
+end
